@@ -210,9 +210,40 @@ header .right .nav-links {
   width: 75%;
 }
 
+/* Default styles for the hero */
 .hero {
-  margin-top: 70px;
-  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh; /* Default height as percentage */
+  width: 100%; /* Full width */
+  margin: auto;
+  margin-top: 125px;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 480px) {
+  .hero {
+    height: 100vh; /* Full height for mobile */
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .hero {
+    height: 50%; /* 50% height for tablets */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero {
+    height: 70%; /* 70% height for small laptops */
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    height: 90%; /* 90% height for large laptops and desktops */
+  }
 }
 
 .col-1 {
@@ -292,15 +323,7 @@ header .right .nav-links {
 }
 
 @media (min-width: 760px) {
-  .hero {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0 10px;
-    margin: 70px auto auto auto;
-    height: 100vh;
-  }
+
   .col-1,
   .col-2 {
     height: 100%;
