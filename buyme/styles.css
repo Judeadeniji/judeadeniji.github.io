@@ -23,6 +23,8 @@ body {
   font-family: "Raleway", Sans-Serif;
   font-weight: 400;
   background-color: #fbfafb;
+  max-width: 1280px;
+  margin: auto;
 }
 
 /* Cinzel (Regular) */
