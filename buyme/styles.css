@@ -393,8 +393,9 @@ header .action span {
 
 .content {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1240px;
   padding: 0 5px;
+  margin: auto;
   margin-top: 80px;
 }
 
