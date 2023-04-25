@@ -1392,3 +1392,8 @@ video {
     padding-right: 2rem;
   }
 }
+.p-4.rounded-2xl.flex.flex-col.items-center.bg-white.transition-all.text-gray-800.hover\:text-black-100.border.hover\:border-black-100.hover\:shadow-md:hover
+{
+  border:1px solid #ff5d00!important;
+  color: #ff5d00;
+}
