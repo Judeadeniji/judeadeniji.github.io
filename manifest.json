@@ -33,10 +33,10 @@
       "type": "image/x-icon"
     }
   ],
-  "main.css": "/assets/css/main.558c1ff5.css",
-  "main.js": "/assets/js/main.aa60139b74568c05727e.js",
-  "vendors.css": "/assets/css/vendors.e3d0b282.css",
-  "vendors.js": "/assets/js/vendors.e3e6ba25ae6a890d67e3.js",
+  "main.css": "/assets/css/main.c17399fa.css",
+  "main.js": "/assets/js/main.b0cc1063d29109febd11.js",
+  "modules.css": "/assets/css/modules.e3d0b282.css",
+  "modules.js": "/assets/js/modules.afa7c984cecd2e56405a.js",
   "assets/images/hero-image.png": "/assets/images/hero-image.png",
   "assets/images/output2.jpg": "/assets/images/output2.jpg",
   "assets/images/about-image.png": "/assets/images/about-image.png",
