@@ -3,12 +3,12 @@ $(document).ready(function () {
 
   $(".tarot-card").click(function () {
     var card = $(this);
-    if (count < 11) {
+    if (count < 6) {
       $(this).removeClass("top").addClass("bottom");
 
       count++;
     }
-    if (count == 11) {
+    if (count == 6) {
       $("div").removeClass("bottom");
 
       count = 0;
